@@ -1,0 +1,181 @@
+2018.09.06 17:27:09 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2018.09.06 17:28:01 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:04 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:04 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:04 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:06 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:06 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:06 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:12 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:12 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:12 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:55 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:55 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:55 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:34:54 org.jivesoftware.openfire.nio.ConnectionHandler - Closing connection due to exception in session: (0x00000005: nio socket, server, /192.168.43.95:41371 => 0.0.0.0/0.0.0.0:5222)
+java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:34:57 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:35:29 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:37:36 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:40:25 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:43:46 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:44:22 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:44:46 class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 81, our last stanza: 80, affected session: org.jivesoftware.openfire.session.LocalClientSession@39530d71 status: 3 address: jair@lapjair/phone id: 9n9qorsoba presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:49:05 class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 31, our last stanza: 30, affected session: org.jivesoftware.openfire.session.LocalClientSession@39625938 status: 3 address: jair@lapjair/phone id: 13jr2midoi presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:50:57 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bryan' using remote host: bryan:5269. Cause: bryan (a full stacktrace is logged on debug level)
+2018.09.06 17:50:57 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bryan': Unable to connect to any of its remote hosts.
+2018.09.06 17:50:57 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bryan'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:52:23 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:52:23 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:52:23 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:54:15 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:54:15 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:54:15 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:54:39 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:54:39 org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:54:39 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:55:43 index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:56:04 class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 37, our last stanza: 35, affected session: org.jivesoftware.openfire.session.LocalClientSession@34233001 status: 3 address: jair@lapjair/phone id: 9jmwt48c6g presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:59:09 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@b3996d1 socket: Socket[addr=/192.168.43.116,port=45192,localport=5269] session: null
+2018.09.06 17:59:09 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@786efc3f socket: Socket[addr=/192.168.43.116,port=45194,localport=5269] session: null
+2018.09.06 17:59:09 org.jivesoftware.openfire.server.ServerDialback[Acting as Originating Server: Create Outgoing Session from: lapjair to RS at: 192.168.43.116 (port: 5269)] - Unable to create a new outgoing session
+2018.09.06 17:59:09 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to 192.168.43.116] - Unable to create a new session: Dialback (as a fallback) failed.
+2018.09.06 17:59:09 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: '192.168.43.116'] - Unable to authenticate: Fail to create new session.
+2018.09.06 18:07:30 org.jivesoftware.openfire.nio.ConnectionHandler - Closing connection due to exception in session: (0x0000000B: nio socket, server, /192.168.43.162:55544 => 0.0.0.0/0.0.0.0:5222)
+java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:14 org.logicalcobwebs.proxool.HouseKeeper - House keeper is still being asked to sweep despite the connection pool being down
+2018.09.06 18:08:17 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@60ebdd54 socket: Socket[addr=/192.168.43.116,port=45698,localport=5269] session: null
+2018.09.06 18:08:17 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@2f225bd8 socket: Socket[addr=/192.168.43.116,port=45700,localport=5269] session: null
+2018.09.06 18:08:17 org.jivesoftware.openfire.server.ServerDialback[Acting as Originating Server: Create Outgoing Session from: lapjair to RS at: 192.168.43.116 (port: 5269)] - Unable to create a new outgoing session
+2018.09.06 18:08:17 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to 192.168.43.116] - Unable to create a new session: Dialback (as a fallback) failed.
+2018.09.06 18:08:17 org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: '192.168.43.116'] - Unable to authenticate: Fail to create new session.
+2018.09.06 21:56:22 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.

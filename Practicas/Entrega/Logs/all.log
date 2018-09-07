@@ -1,0 +1,1041 @@
+2018.09.06 17:27:01 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2018.09.06 17:27:01 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2018.09.06 17:27:02 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2018.09.06 17:27:02 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all loaded plugins...
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'monitoring'.
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'search'.
+2018.09.06 17:27:02 INFO  [Thread-5]: hsqldb.db..ENGINE - Database closed
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2018.09.06 17:27:02 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Server halted
+2018.09.06 17:27:04 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2018.09.06 17:27:04 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2018.09.06 17:27:04 INFO  [Prototyper]: hsqldb.db..ENGINE - open start - state not modified
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2018.09.06 17:27:05 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2018.09.06 17:27:05 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2018.09.06 17:27:06 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - Dominio de Publicar-Suscribir: pubsub.lapjair
+2018.09.06 17:27:06 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Dominio de Chat Multi-usuario: conference.lapjair
+2018.09.06 17:27:06 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.2.3 [06-sep-2018 17:27:06]
+2018.09.06 17:27:06 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2018.09.06 17:27:07 INFO  [pool-4-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2018.09.06 17:27:07 INFO  [pool-4-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2018.09.06 17:27:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Consola de administración escuchando en:
+  http://lapjair:9090
+  https://lapjair:9091
+2018.09.06 17:27:07 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2018.09.06 17:27:07 INFO  [pool-5-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'search'.
+2018.09.06 17:27:09 INFO  [pool-5-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'monitoring'.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2018.09.06 17:27:09 WARN  [pool-4-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2018.09.06 17:27:09 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'ANONYMOUS' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'PLAIN' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'DIGEST-MD5' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'CRAM-MD5' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'SCRAM-SHA-1' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'JIVE-SHAREDSECRET' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'GSSAPI' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'EXTERNAL' SASL mechanism.
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-3]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2018.09.06 17:27:11 INFO  [socket_c2s-thread-2]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2018.09.06 17:28:01 WARN  [Jetty-QTP-AdminConsole-81]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:03 INFO  [socket_c2s-thread-2]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Server Configurations
+2018.09.06 17:31:04 ERROR [pool-35-thread-1]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:04 ERROR [pool-35-thread-1]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:04 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:04 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:04 INFO  [pool-35-thread-1]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to grupoprueba1] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:31:04 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:06 ERROR [pool-35-thread-2]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:06 ERROR [pool-35-thread-2]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:06 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:06 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:06 INFO  [pool-35-thread-2]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to grupoprueba1] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:31:06 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:12 ERROR [pool-35-thread-3]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:12 ERROR [pool-35-thread-3]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:12 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:12 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:12 INFO  [pool-35-thread-3]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to grupoprueba1] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:31:12 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:31:55 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:55 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.grupoprueba1.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:31:55 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1' using remote host: grupoprueba1:5269. Cause: grupoprueba1 (a full stacktrace is logged on debug level)
+2018.09.06 17:31:55 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'grupoprueba1': Unable to connect to any of its remote hosts.
+2018.09.06 17:31:55 INFO  [pool-35-thread-4]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to grupoprueba1] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:31:55 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'grupoprueba1'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:34:54 WARN  [socket_c2s-thread-3]: org.jivesoftware.openfire.nio.ConnectionHandler - Closing connection due to exception in session: (0x00000005: nio socket, server, /192.168.43.95:41371 => 0.0.0.0/0.0.0.0:5222)
+java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:34:57 WARN  [Jetty-QTP-AdminConsole-39]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:35:29 WARN  [Jetty-QTP-AdminConsole-78]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:37:36 WARN  [Jetty-QTP-AdminConsole-39]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:39:36 ERROR [pool-1-thread-2]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:39:36 ERROR [pool-1-thread-2]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:40:25 WARN  [Jetty-QTP-AdminConsole-141]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:41:43 ERROR [pool-1-thread-3]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:41:43 ERROR [pool-1-thread-3]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:42:41 ERROR [pool-1-thread-3]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:43:00 ERROR [pool-1-thread-3]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:43:46 WARN  [Jetty-QTP-AdminConsole-157]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:44:22 WARN  [Jetty-QTP-AdminConsole-141]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:44:46 WARN  [socket_c2s-thread-2]: class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 81, our last stanza: 80, affected session: org.jivesoftware.openfire.session.LocalClientSession@39530d71 status: 3 address: jair@lapjair/phone id: 9n9qorsoba presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:49:05 WARN  [socket_c2s-thread-2]: class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 31, our last stanza: 30, affected session: org.jivesoftware.openfire.session.LocalClientSession@39625938 status: 3 address: jair@lapjair/phone id: 13jr2midoi presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:50:57 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.bryan.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:50:57 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.bryan.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:50:57 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bryan' using remote host: bryan:5269. Cause: bryan (a full stacktrace is logged on debug level)
+2018.09.06 17:50:57 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bryan': Unable to connect to any of its remote hosts.
+2018.09.06 17:50:57 INFO  [pool-35-thread-5]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to bryan] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:50:57 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bryan'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:51:23 ERROR [socket_c2s-thread-2]: com.reucon.openfire.plugin.archive.xep0313.IQQueryHandler - Error during resource binding. Session not found in [] for key bry2@lapjair/phone
+2018.09.06 17:52:23 ERROR [pool-35-thread-1]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:52:23 ERROR [pool-35-thread-1]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:52:23 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:52:23 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:52:23 INFO  [pool-35-thread-1]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to bry2] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:52:23 WARN  [pool-35-thread-1]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:53:48 ERROR [socket_c2s-thread-3]: com.reucon.openfire.plugin.archive.xep0313.IQQueryHandler - Error during resource binding. Session not found in [] for key bry2@lapjair/phone
+2018.09.06 17:54:15 ERROR [pool-35-thread-2]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:54:15 ERROR [pool-35-thread-2]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:54:15 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:54:15 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:54:15 INFO  [pool-35-thread-2]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to bry2] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:54:15 WARN  [pool-35-thread-2]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:54:39 ERROR [pool-35-thread-3]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:54:39 ERROR [pool-35-thread-3]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.bry2.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:54:39 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2' using remote host: bry2:5269. Cause: bry2 (a full stacktrace is logged on debug level)
+2018.09.06 17:54:39 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.net.SocketUtil - Unable to create a socket connection to XMPP domain 'bry2': Unable to connect to any of its remote hosts.
+2018.09.06 17:54:39 INFO  [pool-35-thread-3]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to bry2] - Unable to create new session: Cannot create a plain socket connection with any applicable remote host.
+2018.09.06 17:54:39 WARN  [pool-35-thread-3]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: 'bry2'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:55:43 WARN  [Jetty-QTP-AdminConsole-141]: index.jsp - Failed to fetch RSS feed:
+java.net.UnknownHostException: discourse.igniterealtime.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:477)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:56:04 WARN  [socket_c2s-thread-2]: class org.jivesoftware.openfire.streammanagement.StreamManager[192.168.43.157] - Closing client session. Client acknowledges stanzas that we didn't send! Client Ack h: 37, our last stanza: 35, affected session: org.jivesoftware.openfire.session.LocalClientSession@34233001 status: 3 address: jair@lapjair/phone id: 9jmwt48c6g presence: 
+<presence from="jair@lapjair/phone">
+  <c xmlns="http://jabber.org/protocol/caps" ver="d++Bs1eJr0Jexb4m22NQ8eF9B94=" hash="sha-1"></c>
+</presence>
+2018.09.06 17:59:09 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:59:09 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:59:09 WARN  [Server SR - 619486386]: org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@b3996d1 socket: Socket[addr=/192.168.43.116,port=45192,localport=5269] session: null
+2018.09.06 17:59:09 INFO  [pool-35-thread-4]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Secret Keys Cache
+2018.09.06 17:59:09 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.server.ServerDialback.createOutgoingSession(ServerDialback.java:210)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:373)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:59:09 ERROR [pool-35-thread-4]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.server.ServerDialback.createOutgoingSession(ServerDialback.java:210)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:373)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 17:59:09 WARN  [Server SR - 1696892757]: org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@786efc3f socket: Socket[addr=/192.168.43.116,port=45194,localport=5269] session: null
+2018.09.06 17:59:09 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.server.ServerDialback[Acting as Originating Server: Create Outgoing Session from: lapjair to RS at: 192.168.43.116 (port: 5269)] - Unable to create a new outgoing session
+2018.09.06 17:59:09 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to 192.168.43.116] - Unable to create a new session: Dialback (as a fallback) failed.
+2018.09.06 17:59:09 WARN  [pool-35-thread-4]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: '192.168.43.116'] - Unable to authenticate: Fail to create new session.
+2018.09.06 17:59:31 INFO  [socket_c2s-thread-2]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - removing chat room:grupoprueba|org.jivesoftware.openfire.muc.spi.LocalMUCRoom
+2018.09.06 18:03:09 ERROR [pool-1-thread-4]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:03:20 ERROR [pool-1-thread-4]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Error reading Socks5 version and command
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processIncomingSocks5Message(ProxyConnectionManager.java:233)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:186)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:03:20 ERROR [pool-1-thread-4]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:03:34 ERROR [pool-1-thread-4]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:03:40 ERROR [pool-1-thread-4]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:06:08 ERROR [socket_c2s-thread-2]: com.reucon.openfire.plugin.archive.xep0313.IQQueryHandler - Error during resource binding. Session not found in [] for key jair@lapjair/phone
+2018.09.06 18:06:08 ERROR [pool-1-thread-5]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:06:08 ERROR [pool-1-thread-5]: org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager - Error processing file transfer proxy connection
+java.io.IOException: Illegal proxy transfer
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.processConnection(ProxyConnectionManager.java:205)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager.access$200(ProxyConnectionManager.java:53)
+	at org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager$1$1.run(ProxyConnectionManager.java:125)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:07:30 WARN  [socket_c2s-thread-2]: org.jivesoftware.openfire.nio.ConnectionHandler - Closing connection due to exception in session: (0x0000000B: nio socket, server, /192.168.43.162:55544 => 0.0.0.0/0.0.0.0:5222)
+java.io.IOException: Conexión reinicializada por la máquina remota
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:273)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:44)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:690)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:13 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.openfire - Shutting down 'openfire' pool immediately [Shutdown Hook]
+2018.09.06 18:08:14 WARN  [HouseKeeper]: org.logicalcobwebs.proxool.HouseKeeper - House keeper is still being asked to sweep despite the connection pool being down
+2018.09.06 18:08:13 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Shutting down 49 modules ...
+2018.09.06 18:08:17 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:17 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:245)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:17 WARN  [Server SR - 547538167]: org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@60ebdd54 socket: Socket[addr=/192.168.43.116,port=45698,localport=5269] session: null
+2018.09.06 18:08:17 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_xmpp-server._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:97)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.server.ServerDialback.createOutgoingSession(ServerDialback.java:210)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:373)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:17 ERROR [pool-35-thread-5]: org.jivesoftware.openfire.net.DNSUtil - Can't process DNS lookup!
+javax.naming.OperationNotSupportedException: DNS service refused [response code 5]; remaining name '_jabber._tcp.192.168.43.116.'
+	at com.sun.jndi.dns.DnsClient.checkResponseCode(DnsClient.java:659)
+	at com.sun.jndi.dns.DnsClient.isMatchResponse(DnsClient.java:574)
+	at com.sun.jndi.dns.DnsClient.doUdpQuery(DnsClient.java:423)
+	at com.sun.jndi.dns.DnsClient.query(DnsClient.java:208)
+	at com.sun.jndi.dns.Resolver.query(Resolver.java:81)
+	at com.sun.jndi.dns.DnsContext.c_getAttributes(DnsContext.java:434)
+	at com.sun.jndi.toolkit.ctx.ComponentDirContext.p_getAttributes(ComponentDirContext.java:235)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:141)
+	at com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.getAttributes(PartialCompositeDirContext.java:129)
+	at javax.naming.directory.InitialDirContext.getAttributes(InitialDirContext.java:142)
+	at org.jivesoftware.openfire.net.DNSUtil.srvLookup(DNSUtil.java:203)
+	at org.jivesoftware.openfire.net.DNSUtil.resolveXMPPDomain(DNSUtil.java:99)
+	at org.jivesoftware.openfire.net.SocketUtil.createSocketToXmppDomain(SocketUtil.java:43)
+	at org.jivesoftware.openfire.server.ServerDialback.createOutgoingSession(ServerDialback.java:210)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:373)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:206)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:260)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:238)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018.09.06 18:08:17 WARN  [Server SR - 1853718342]: org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.43.116. Connection: org.jivesoftware.openfire.net.SocketConnection@2f225bd8 socket: Socket[addr=/192.168.43.116,port=45700,localport=5269] session: null
+2018.09.06 18:08:17 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.server.ServerDialback[Acting as Originating Server: Create Outgoing Session from: lapjair to RS at: 192.168.43.116 (port: 5269)] - Unable to create a new outgoing session
+2018.09.06 18:08:17 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Create outgoing session for: lapjair to 192.168.43.116] - Unable to create a new session: Dialback (as a fallback) failed.
+2018.09.06 18:08:17 WARN  [pool-35-thread-5]: org.jivesoftware.openfire.session.LocalOutgoingServerSession[Authenticate local domain: 'lapjair' to remote domain: '192.168.43.116'] - Unable to authenticate: Fail to create new session.
+2018.09.06 18:08:17 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.PrototyperController - Stopping Prototyper thread
+2018.09.06 18:08:17 INFO  [Shutdown Hook]: org.logicalcobwebs.proxool.HouseKeeperController - Stopping HouseKeeper thread
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Shutting down. Unloading all loaded plugins...
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'admin'.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'monitoring'.
+2018.09.06 18:08:17 INFO  [Thread-5]: org.jivesoftware.openfire.container.PluginManager - Unloaded plugin 'search'.
+2018.09.06 18:08:19 INFO  [Thread-5]: hsqldb.db..ENGINE - Database closed
+2018.09.06 18:08:20 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2018.09.06 18:08:20 INFO  [Thread-5]: org.jivesoftware.openfire.XMPPServer - Server halted
+2018.09.06 21:56:13 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2018.09.06 21:56:13 INFO  [main]: org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.9.0RC3+ (February 6 2008)
+2018.09.06 21:56:14 INFO  [main]: hsqldb.db..ENGINE - open start - state not modified
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2018.09.06 21:56:15 INFO  [main]: org.logicalcobwebs.proxool.openfire - Proxool statistics legend: "s - r  (a/t/o)" > s=served, r=refused (only shown if non-zero), a=active, t=total, o=offline (being tested)
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2018.09.06 21:56:15 INFO  [main]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2018.09.06 21:56:16 INFO  [main]: org.jivesoftware.openfire.pubsub.PubSubModule - Dominio de Publicar-Suscribir: pubsub.lapjair
+2018.09.06 21:56:16 INFO  [main]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Dominio de Chat Multi-usuario: conference.lapjair
+2018.09.06 21:56:16 INFO  [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.2.3 [06-sep-2018 21:56:16]
+2018.09.06 21:56:17 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2018.09.06 21:56:18 INFO  [pool-4-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2018.09.06 21:56:18 INFO  [pool-4-thread-1]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2018.09.06 21:56:18 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Consola de administración escuchando en:
+  http://lapjair:9090
+  https://lapjair:9091
+2018.09.06 21:56:18 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+2018.09.06 21:56:18 INFO  [pool-5-thread-3]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'search'.
+2018.09.06 21:56:22 INFO  [pool-5-thread-2]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'monitoring'.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2018.09.06 21:56:22 WARN  [pool-4-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2018.09.06 21:56:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2018.09.06 21:56:52 INFO  [Jetty-QTP-AdminConsole-38]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2018.09.06 21:59:22 INFO  [pool-32-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'userimportexport'.
+2018.09.06 21:59:22 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2018.09.06 21:59:31 INFO  [Jetty-QTP-AdminConsole-37]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2018.09.06 21:59:31 INFO  [Jetty-QTP-AdminConsole-37]: org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2018.09.06 22:02:43 INFO  [pool-42-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'dbaccess'.
+2018.09.06 22:02:43 INFO  [pool-4-thread-1]: org.jivesoftware.openfire.container.PluginMonitor - Finished processing all plugins.
+2018.09.06 22:02:55 INFO  [Jetty-QTP-AdminConsole-38]: org.directwebremoting.log.startup - Starting: DwrServlet v3.0.3-dev on jetty/9.2.z-SNAPSHOT / JDK 1.8.0_144 from Oracle Corporation at 
+2018.09.06 22:02:55 INFO  [Jetty-QTP-AdminConsole-38]: org.directwebremoting.log.startup - Starting: Using container abstraction org.directwebremoting.server.servlet3.Servlet30ContainerAbstraction
