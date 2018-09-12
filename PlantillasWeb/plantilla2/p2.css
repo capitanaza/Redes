@@ -1,0 +1,118 @@
+
+/* 
+    Created on : 30/01/2014, 02:26:27 PM
+    Author     : jairpacheco
+*/
+/**
+ * Skyrim-inspired Menu
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html {
+    background: #333 url(http://subtlepatterns.com/patterns/tex2res4.png) 0 0 repeat;
+    min-height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #FFF;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+a:hover, li:hover > a {
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#Todo {
+   height: 100%;
+}
+
+#Nadaarriba {
+    
+    height: 30%;
+    width: 99.8%;
+}
+
+#Centro {
+    height: 40%;
+    width: 99.8%;
+}
+
+#Nadaderecha {
+    height: 290px;
+    width: 28%;
+    position: relative;
+    float: right;
+}
+
+#Nadaizquierda {
+    height: 290px;
+    width: 28%;
+    position: relative;
+    float: left;
+}
+
+#Info {
+    width: 42%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.2);
+    position: relative;
+    float: left;
+}
+
+#Info * {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+a.btn {
+    display: block;
+    height: 50px;
+    width: 130px;
+    margin: 0 auto;
+    border: darkgray 1px solid;
+    background: darkgray;
+    border-radius: 10px;
+    font: bold 220% Helvetica, Sans-Serif; 
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: none;
+    text-shadow: 0px 1px 2px black;
+}
+
+a.btn:hover {
+    display: block;
+    height: 50px;
+    width: 130px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 10px;
+    font: bold 35px Helvetica, Sans-Serif; 
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 1px 2px white;
+}

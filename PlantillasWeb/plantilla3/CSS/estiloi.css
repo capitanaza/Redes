@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background:#FFFFFF;     
+}
+#todo{
+    width:1230px;
+    height:680px;
+    border-color:#99FF66;
+    border-width:1px;
+    border-style:hidden;
+    margin:auto;
+}
+/*Capa que se ocupa para el titulo del sitio*/
+#title{
+    width:1220px;
+    height:40px;
+    border-color:black;
+    border-width:4px;
+    border-style: dotted;
+    margin-top:20px;
+    z-index:2;
+    padding-bottom: 30px;
+    background: #00FF80;    
+}
+#title .header{
+	/*estilo para el titulo*/
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+/*Esta capa es invisible*/
+#contenido{
+    width:1228px;
+    height:470px;
+    border-color:#00FF00;
+    border-width: 1px;
+    border-style:hidden;
+    margin:auto;
+}
+/*En esta capa se aloja el menú desplegable*/
+#Arriba{
+    width:1225px;
+    height:100px;
+    border-color:#99CC00;
+    border-width:2px;
+    text-align:center;
+    border-radius: 20px 20px 20px 20px;
+    background: RoyalBlue;
+    z-index: 10;
+}
+
+/*En ésta capa se aloja el contenido temático de la página*/
+#contenidoIndex{
+    width:1215px;
+    height:430px;
+    margin-top:5px;
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-top: 12px;
+    background: #33CC33 ;
+    border-color: black;
+    border-width: 1px;
+    position:relative;
+    z-index: 1;
+    border-radius: 30px 30px 30px 30px;
+    overflow: auto;	
+}
+#contenidoIndex>p{
+    padding: 30px 30px 30px 30px;
+    font-size: x-large;
+    text-align: justify;
+}
+
+
+

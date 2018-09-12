@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: "Spetetrial";
+    src: url('../Fuentes/SPETETRIAL.tff') format('truetype');
+}
+
+body {
+    background:#FFFFFF;     
+}
+#todo{
+    width:1230px;
+    height:700px;
+    border-color:#99FF66;
+    border-width:1px;
+    border-style:hidden;
+    margin:auto;
+    z-index:1;
+}
+#title{
+    width:1220px;
+    height:40px;
+    border-color:black;
+    border-width:4px;
+    border-style: dotted;
+    margin-top:20px;
+    z-index:2;
+    background: SpringGreen;
+    padding-bottom: 30px;    
+}
+#title .header{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+h1.insetType {
+  font-family: "Arial" ;
+  font-size: 30px;
+  text-align: center;
+  color: #09C;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+}
+/*Esta capa es invisible*/
+#contenido{
+    width:1228px;
+    height:550px;
+    border-color:#00FF00;
+    border-width: 1px;
+    border-style:hidden;
+    
+}
+/*En esta capa se aloja el menú desplegable*/
+#Arriba{
+    width:1225px;
+    height:100px;
+    border-color:#6699FF;
+    border-width:2px;
+    border-radius: 20px 20px 20px 20px;
+    background: RoyalBlue;
+    z-index: 10;
+    text-align:center;
+} 
+
+ /*En ésta capa se aloja el contenido temático de la página*/
+#contIzq{
+    width:218px;
+    height:430px;
+    margin-top:5px;
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-top: 12px;
+    background: LimeGreen ;
+    border-color: black;
+    border-width: 1px;
+    float:left;
+    position:relative;
+    z-index: 1;
+    border-radius: 30px 30px 30px 30px;
+    overflow: auto;
+}
+#contIzq>p{
+    padding-left:20px;
+    padding-top:20px;
+	font-size:large;
+}
+#ContenidoNuevo{
+	width: 990px;
+	height: 530px;
+	position: relative;
+	float: right;
+}
+#contDer{
+    width:290px;
+    height:441px;
+    position: relative;
+	float: right;
+	margin-top: 5px;
+	background-color: ForestGreen;
+	border-radius: 30px 30px 30px 30px;
+}
+#contDer>p{
+    padding-left: 10px;
+    font-size: x-large;
+    text-align: justify;
+}
+img {
+	display: block;
+	padding:3px 3px 3px 3px;
+	background-color: #fff;
+	-webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+li:nth-child(odd) img {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+img:hover {
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	transform: rotate(3deg);
+	z-index: 10;
+	position: relative;
+	-webkit-box-shadow: 8px 8px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 8px 8px 5px rgba(0,0,0,0.2);
+	box-shadow: 8px 8px 5px rgba(0,0,0,0.2);
+	-webkit-transition: 0.2s, 0.2s;
+	-moz-transition: 0.2s, 0.2s;
+	transition: 0.2s, 0.2s;
+}
+
+li:nth-child(odd) img:hover {
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+
+
+/* just for presentation: not part of the effect */
+
+ul {
+	width: 500px;
+	padding-left:20px;
+}
+
+li {
+	display: block;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 5px;
+}
+
+
+#pie{
+    width:670px;
+    height:430px;
+	float:left;
+    border-radius: 30px 30px 30px 30px;
+    z-index:0;
+	margin-top:5px;
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-top: 12px;
+    background:MediumAquaMarine;
+    position:relative;
+}
+
+

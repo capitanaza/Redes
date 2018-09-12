@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Intro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="p2.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="Todo">
+            <div id="Nadaarriba"></div>
+            <div id="Centro">
+                <div id="Nadaderecha"></div>
+                <div id="Nadaizquierda"></div>
+                <div id="Info">
+                    <p> Aqui va texto, este javascript detecta la resolución media de tu pantalla para ajustar la página principal, actualmente la resolución de tu pantalla es:
+                        <script>
+                            if (screen.width<1024)
+                                document.write ("Pequeña");
+                            else
+                                if (screen.width<1280)
+                                    document.write ("Mediana");
+                                else
+                                    document.write ("Grande");
+                        </script>
+                        <br>
+                        <br>
+                        Para continuar haz click:
+                        <br>
+                        <br>
+                        <a href="inicio.html" class="btn"> Aqui </a><br>
+                    </p>
+                </div>
+            </div>
+            <div id="Nadaabajo"></div>
+        </div>
+    </body>
+</html>

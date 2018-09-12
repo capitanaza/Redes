@@ -1,0 +1,22 @@
+
+#img  {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+#img1  {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    left: 5%;
+}
+
+#img2 {
+    
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+

@@ -1,0 +1,62 @@
+#valores {
+    font-size: 12px;
+    width: 100%;
+    background: #000;
+}
+
+
+#cuadro1 {
+    height: 20%;
+    width: 20%;
+    border: solid white 1px;
+    border-radius: 2em;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+#cuadro2 {
+    height: 20%;
+    width: 20%;
+    border: solid white 1px;
+    border-radius: 2em;
+    position: relative;
+    float: right;
+    bottom: 20%;
+    text-align: center;
+}
+
+#cuadro3 {
+    height: 20%;
+    width: 19%;
+    border: solid white 1px;
+    border-radius: 2em;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+#cuadro4 {
+    height: 20%;
+    width: 20%;
+    border: solid white 1px;
+    border-radius: 2em;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+#cuadro5 {
+    height: 20%;
+    width: 20%;
+    border: solid white 1px;
+    border-radius: 2em;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+#cuadro1 p, #cuadro2 p, #cuadro3 p, #cuadro4 p, #cuadro5 p {
+    
+}
+

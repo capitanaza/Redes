@@ -1,0 +1,103 @@
+
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+@import url(http://fonts.googleapis.com/css?family=Jura:500);
+
+html, body {
+    min-height: 100%;
+    
+}
+
+body {
+    background: url(../img/images3.png);
+}
+
+#background {
+    position: absolute;
+    z-index: 1;
+    width: 99.4%;
+    height: 98.8%;
+    margin: 0px;
+    
+    overflow: auto;
+}
+
+#todo {
+    margin: 0 auto;
+    width: 90%;
+    height: 140%;
+    font-family: "Russo One";
+    position: relative;
+    z-index: 2;
+    top: 4%;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 15%;
+    position: relative;
+    color: white;
+    z-index: 4;
+}
+
+#logo {
+    text-align: right;
+}
+
+nav {
+    margin: 0 auto;
+    width: 70%;
+    height: 0%;
+    position: relative;
+    float: left;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 3;
+    top: 38%;
+}
+
+section {
+    margin: 0 auto;
+    width: 100%;
+    height: 94%;
+    position: relative;
+    color: #f8f8f8;
+    font-family:'Jura';
+}
+
+article {
+    margin-top: 1%;
+    width: 99.7%;
+    height: 99%;
+    border-radius: 15px;
+    overflow: auto;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2 );
+    font-size: 18px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+
+#letrasPequeñas {
+    position: relative;
+    float: bottom;
+    font-size: 12px;
+    top: 1.5%;
+}
+
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 3%;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: white;
+    text-align: center;
+    top: 2%;
+    left: 0.8%;
+}

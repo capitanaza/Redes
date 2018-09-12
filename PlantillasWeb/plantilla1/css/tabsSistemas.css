@@ -1,0 +1,84 @@
+article p, h2{
+	text-align:center;
+
+}
+#tabsSistemas{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#tab1, #tab2, #tab3{
+	height: 470px;
+}
+#tab1 p, #tab2 p, #tab3 p{
+	text-align: justify;
+	padding: 5px;
+	padding-right: 17px;
+}
+.contenedor_tab{
+	float:left;	
+	width:800px;
+	padding:0px;
+	margin:0 auto;
+	display:block;
+	background: rgba(4,1,28,1);
+	border:1px dashed;
+	border-color: #294E8E;
+	text-align: center;
+	-moz-border-radius: 0 0 7px 7px;
+	-webkit-border-radius:0 0 7pc 7px;
+	border-radius: 0 7px 7px 7px;
+}
+ul.tabs{
+	float:left;
+	margin:0;
+	text-align: center;
+	padding:0;
+	list-style:none;
+	height:32px;
+	width:800px;
+	margin-top:-7px;
+}
+ul.tabs li{
+	float:left;
+	margin:0;
+	padding:0;
+	height:30px;
+	line-height:31px;
+	border:1px dashed;
+	border-color: #294E8E;
+	margin-bottom:-1px;
+	background:rgba(4,1,28,0.6);
+	overflow:hidden;
+	position:relative;
+	-moz-border-radius:7px 7px 0 0;
+	-webkit-border-radius:7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
+}
+ul.tabs li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-size:large;
+	padding:0 20px;
+	border:1px dashed;
+	border-color: #294E8E;
+	outline:none;
+	-moz-border-radius:7px 7px 0 0;
+	-webkit-border-radius:7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
+}
+ul.tabs li a:hover{
+	background: rgba(4,1,28,0.8);
+}
+ul.tabs li.activa, ul.tabs li.activa a, ul.tabs li.activa a:hover {
+	color: #fff;
+	font-weight:bold;
+	background: rgba(4,1,28, 0.7);
+	border-bottom:1px dashed;
+	border-color: #294E8E;
+}
+.contenido_tab{
+	padding:10px;
+	font-size:large;
+	width:800px;
+}
