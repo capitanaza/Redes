@@ -1,0 +1,336 @@
+[Thu Sep 20 00:09:40.063036 2018] [ssl:warn] [pid 1000] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 00:09:40.063078 2018] [ssl:warn] [pid 1000] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 00:09:40.063182 2018] [mpm_prefork:notice] [pid 1000] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 00:09:40.063189 2018] [core:notice] [pid 1000] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 00:27:24.209323 2018] [mpm_prefork:notice] [pid 1000] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 10:21:23.542091 2018] [ssl:warn] [pid 900] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 10:21:23.566338 2018] [ssl:warn] [pid 900] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 10:21:24.802825 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 10:21:24.802856 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 10:21:24.806569 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 10:21:24.806608 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 15:39:28.281082 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 15:39:28.324180 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 15:39:28.324204 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 15:39:28.324314 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 15:39:28.324321 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:06:51.291743 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 16:06:51.342254 2018] [ssl:warn] [pid 948] AH01906: thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:06:51.342276 2018] [ssl:warn] [pid 948] AH01909: thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:06:51.342552 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:06:51.342564 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:06:51.342823 2018] [ssl:warn] [pid 948] AH01906: secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:06:51.342834 2018] [ssl:warn] [pid 948] AH01909: secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:06:51.343086 2018] [ssl:warn] [pid 948] AH01906: example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:06:51.343193 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:06:51.343200 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:08:33.866890 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 16:08:33.938677 2018] [ssl:warn] [pid 948] AH01906: localhost/thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:08:33.938701 2018] [ssl:warn] [pid 948] AH01909: localhost/thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:08:33.938965 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:08:33.938976 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:08:33.939230 2018] [ssl:warn] [pid 948] AH01906: localhost/secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:08:33.939240 2018] [ssl:warn] [pid 948] AH01909: localhost/secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:08:33.939502 2018] [ssl:warn] [pid 948] AH01906: localhost/example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:08:33.939513 2018] [ssl:warn] [pid 948] AH01909: localhost/example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:08:33.939609 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:08:33.939617 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:09:43.633149 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 16:09:43.676642 2018] [ssl:warn] [pid 948] AH01906: localhost/thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:09:43.676669 2018] [ssl:warn] [pid 948] AH01909: localhost/thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:09:43.676938 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:09:43.676950 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:09:43.677203 2018] [ssl:warn] [pid 948] AH01906: localhost/secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:09:43.677213 2018] [ssl:warn] [pid 948] AH01909: localhost/secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:09:43.677471 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:09:43.677482 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:09:43.677578 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:09:43.677584 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:10:09.700148 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 16:10:09.739318 2018] [ssl:warn] [pid 948] AH01906: localhost/thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:10:09.739342 2018] [ssl:warn] [pid 948] AH01909: localhost/thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:10:09.739634 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:10:09.739645 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:10:09.739914 2018] [ssl:warn] [pid 948] AH01906: localhost/secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:10:09.739924 2018] [ssl:warn] [pid 948] AH01909: localhost/secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:10:09.740189 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:10:09.740199 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:10:09.740292 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:10:09.740299 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:11:38.751411 2018] [mpm_prefork:notice] [pid 948] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 16:11:38.799497 2018] [ssl:warn] [pid 948] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:11:38.799525 2018] [ssl:warn] [pid 948] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:11:38.799630 2018] [mpm_prefork:notice] [pid 948] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:11:38.799638 2018] [core:notice] [pid 948] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:15:12.795447 2018] [mpm_prefork:notice] [pid 948] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:16:03.504434 2018] [ssl:warn] [pid 4689] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:16:03.504475 2018] [ssl:warn] [pid 4689] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:16:03.532553 2018] [ssl:warn] [pid 4690] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:16:03.532581 2018] [ssl:warn] [pid 4690] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:16:03.536949 2018] [mpm_prefork:notice] [pid 4690] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:16:03.536987 2018] [core:notice] [pid 4690] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:16:21.150276 2018] [mpm_prefork:notice] [pid 4690] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:16:21.231944 2018] [ssl:warn] [pid 4712] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:16:21.231981 2018] [ssl:warn] [pid 4712] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:16:21.261672 2018] [ssl:warn] [pid 4713] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:16:21.261707 2018] [ssl:warn] [pid 4713] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:16:21.265532 2018] [mpm_prefork:notice] [pid 4713] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:16:21.265566 2018] [core:notice] [pid 4713] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:16:46.661394 2018] [authz_core:error] [pid 4715] [client 10.100.67.52:38878] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:17:03.740283 2018] [authz_core:error] [pid 4716] [client 10.100.74.233:53968] AH01630: client denied by server configuration: /var/www/example.com/html
+[Thu Sep 20 16:17:19.793365 2018] [mpm_prefork:notice] [pid 4713] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:17:19.883804 2018] [ssl:warn] [pid 4785] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:17:19.883840 2018] [ssl:warn] [pid 4785] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:17:19.911843 2018] [ssl:warn] [pid 4786] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:17:19.911868 2018] [ssl:warn] [pid 4786] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:17:19.916143 2018] [mpm_prefork:notice] [pid 4786] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:17:19.916183 2018] [core:notice] [pid 4786] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:17:27.334564 2018] [authz_core:error] [pid 4789] [client 10.100.67.118:53518] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:26.318498 2018] [authz_core:error] [pid 4795] [client 10.100.67.118:53638] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:27.494351 2018] [authz_core:error] [pid 4795] [client 10.100.67.118:53638] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:35.092975 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:35.315550 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:35.495633 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:35.680900 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:35.887343 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:36.147669 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53637] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:50.766335 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:51.086061 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:51.259772 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:54.365601 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:54.559593 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:54.780458 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:54.939010 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:55.137130 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:55.318535 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:18:55.487227 2018] [authz_core:error] [pid 4788] [client 10.100.67.118:53690] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:19:27.278125 2018] [authz_core:error] [pid 4797] [client 10.100.67.118:53777] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:19:53.799344 2018] [mpm_prefork:notice] [pid 4786] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:19:53.876604 2018] [ssl:warn] [pid 4819] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:19:53.876643 2018] [ssl:warn] [pid 4819] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:19:53.904394 2018] [ssl:warn] [pid 4820] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:19:53.904422 2018] [ssl:warn] [pid 4820] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:19:53.909339 2018] [mpm_prefork:notice] [pid 4820] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:19:53.909385 2018] [core:notice] [pid 4820] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:19:58.754515 2018] [mpm_prefork:notice] [pid 4820] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:19:58.826979 2018] [ssl:warn] [pid 4840] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:19:58.827017 2018] [ssl:warn] [pid 4840] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:19:58.855043 2018] [ssl:warn] [pid 4841] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:19:58.855074 2018] [ssl:warn] [pid 4841] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:19:58.859802 2018] [mpm_prefork:notice] [pid 4841] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:19:58.859839 2018] [core:notice] [pid 4841] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:21:51.302339 2018] [mpm_prefork:notice] [pid 4841] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:21:51.384653 2018] [ssl:warn] [pid 4927] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:21:51.384690 2018] [ssl:warn] [pid 4927] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:21:52.155701 2018] [ssl:warn] [pid 4928] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:21:52.155732 2018] [ssl:warn] [pid 4928] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:21:52.159830 2018] [mpm_prefork:notice] [pid 4928] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:21:52.159862 2018] [core:notice] [pid 4928] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:21:56.072257 2018] [authz_core:error] [pid 4929] [client 10.100.70.182:44914] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:24:25.809797 2018] [authz_core:error] [pid 4931] [client 10.100.70.182:45256] AH01630: client denied by server configuration: /var/www/example.com/html/
+[Thu Sep 20 16:27:35.683429 2018] [mpm_prefork:notice] [pid 4928] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:29:26.374831 2018] [ssl:warn] [pid 5580] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:29:26.374881 2018] [ssl:warn] [pid 5580] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:29:26.402003 2018] [ssl:warn] [pid 5581] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:29:26.402034 2018] [ssl:warn] [pid 5581] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:29:26.405856 2018] [mpm_prefork:notice] [pid 5581] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:29:26.405950 2018] [core:notice] [pid 5581] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:29:31.669586 2018] [mpm_prefork:notice] [pid 5581] AH00169: caught SIGTERM, shutting down
+[Thu Sep 20 16:29:31.763654 2018] [ssl:warn] [pid 5601] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:29:31.763690 2018] [ssl:warn] [pid 5601] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:29:31.793630 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 16:29:31.793657 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 16:29:31.797583 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 16:29:31.797614 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 16:30:07.866213 2018] [auth_basic:error] [pid 5607] [client ::1:37412] AH01618: user jair1230 not found: /secondexample.com/
+[Thu Sep 20 17:00:09.476387 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:00:09.520598 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:00:09.520624 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:00:09.520732 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:00:09.520740 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:06:03.626944 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:06:03.669250 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:06:03.669276 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:06:03.669378 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:06:03.669384 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:08:57.394545 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:08:57.437142 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:08:57.437166 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:08:57.437279 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:08:57.437287 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:08:58.043406 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:08:58.080463 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:08:58.080489 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:08:58.080589 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:08:58.080595 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:09:48.917235 2018] [authz_core:error] [pid 8407] [client ::1:36036] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:09:50.523053 2018] [authz_core:error] [pid 8407] [client ::1:36036] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:12:24.033241 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:12:24.075422 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:12:24.075449 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:12:24.075548 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:12:24.075555 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:13:06.507931 2018] [access_compat:error] [pid 8694] [client 10.100.74.233:54390] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:02.526407 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:14:02.569002 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:14:02.569026 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:14:02.569128 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:14:02.569136 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:14:08.732560 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.213444 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.358612 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.484974 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.620280 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.745676 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:09.888105 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.011215 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.138666 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.259159 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.385562 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.535474 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.672064 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.787488 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:10.931369 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.076617 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.185231 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.326166 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.455681 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.591712 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.726197 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.858763 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:11.989624 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.140292 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.258222 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.395507 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.549629 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.709430 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.839785 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:12.990828 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:13.172069 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:13.278187 2018] [access_compat:error] [pid 8812] [client 10.100.74.233:54490] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:14:33.062803 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:14:33.108784 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:14:33.108810 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:14:33.108909 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:14:33.108915 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:14:36.601380 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:14:36.643075 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:14:36.643099 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:14:36.643201 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:14:36.643208 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:14:49.117249 2018] [access_compat:error] [pid 8858] [client ::1:36186] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:16:20.000061 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:16:20.048615 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:16:20.048639 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:16:20.048740 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:16:20.048748 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:16:22.865864 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:16:22.904927 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:16:22.904950 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:16:22.905050 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:16:22.905066 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:17:27.028033 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:17:27.071017 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:17:27.071042 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:17:27.071143 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:17:27.071151 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:17:29.965761 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:30.464117 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:30.616433 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:30.781188 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:30.885248 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:31.050227 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:17:31.166342 2018] [access_compat:error] [pid 9097] [client 10.100.74.233:54530] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:05.447631 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:18:05.488877 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:18:05.488903 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:18:05.489003 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:18:05.489009 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:18:06.242712 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:18:06.283258 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:18:06.283284 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:18:06.283387 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:18:06.283395 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:18:09.773352 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.246826 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.411514 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.527049 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.650166 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.793363 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:10.914176 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.024679 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.184948 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.272224 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.395854 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.547927 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.682750 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.812574 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:11.954916 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:18:12.106148 2018] [access_compat:error] [pid 9133] [client 10.100.74.233:54534] AH01797: client denied by server configuration: /var/www/html/server-status
+[Thu Sep 20 17:20:49.495241 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:20:49.536723 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:20:49.536749 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:20:49.536849 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:20:49.536856 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:50:38.739739 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:50:38.790581 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:50:38.790603 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:50:38.790721 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:50:38.790738 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 17:52:55.106014 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 17:52:55.158324 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 17:52:55.158351 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 17:52:55.158458 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 17:52:55.158465 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 18:02:43.034079 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 18:02:43.119586 2018] [ssl:warn] [pid 5602] AH01906: www.thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:02:43.119617 2018] [ssl:warn] [pid 5602] AH01909: www.thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:02:43.123530 2018] [ssl:warn] [pid 5602] AH01906: www.secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:02:43.123559 2018] [ssl:warn] [pid 5602] AH01909: www.secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:02:43.133895 2018] [ssl:warn] [pid 5602] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:02:43.133929 2018] [ssl:warn] [pid 5602] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:02:43.134264 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:02:43.134280 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:02:43.134401 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 18:02:43.134412 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 18:09:17.627451 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 18:09:17.672727 2018] [ssl:warn] [pid 5602] AH01906: www.thirdexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:09:17.672761 2018] [ssl:warn] [pid 5602] AH01909: www.thirdexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:09:17.673046 2018] [ssl:warn] [pid 5602] AH01906: www.secondexample.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:09:17.673061 2018] [ssl:warn] [pid 5602] AH01909: www.secondexample.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:09:17.673335 2018] [ssl:warn] [pid 5602] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:09:17.673348 2018] [ssl:warn] [pid 5602] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:09:17.673635 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:09:17.673648 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:09:17.673756 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 18:09:17.673765 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 20 18:11:06.161689 2018] [mpm_prefork:notice] [pid 5602] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Sep 20 18:11:06.202296 2018] [ssl:warn] [pid 5602] AH01906: 127.0.1.1:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Sep 20 18:11:06.202314 2018] [ssl:warn] [pid 5602] AH01909: 127.0.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 20 18:11:06.202441 2018] [mpm_prefork:notice] [pid 5602] AH00163: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.0g configured -- resuming normal operations
+[Thu Sep 20 18:11:06.202450 2018] [core:notice] [pid 5602] AH00094: Command line: '/usr/sbin/apache2'
