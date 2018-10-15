@@ -1,6 +1,10 @@
 from tabulate import tabulate
 import sys
 
+if(len(sys.argv) != 4):
+	print("Usage: python filter.py <FILE> <USER> <OPERATION>")
+	sys.exit(1)
+
 f = open(sys.argv[1], 'r')
 
 data = []
@@ -32,5 +36,7 @@ for line in f:
 		elif(sys.argv[3] == str(4)):
 			if(op == 'RNFR' or op == 'RNTO'):
 				data.append([date_time, ip_user, user, file, op, code])
+	elif(sys.argv[2] == "all"):
+		data.append([date_time, ip_user, user, file, op, code])
 
 print tabulate(data, headers=['Date - Time', 'IP User', 'User Name', 'File', 'Operation', 'Response Code'])
